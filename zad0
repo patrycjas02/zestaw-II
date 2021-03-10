@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main (){
+
+    int x;
+    cout<< "Podaj liczbe: ";
+    cin>>x;
+
+    if (x%2==0){
+        cout<<endl<<"Podana liczba jest parzysta"<<endl;
+    }
+    else{
+        cout<<endl<<"Podana liczba nie jest parzysta"<<endl;
+    }
+
+return 0;
+}
