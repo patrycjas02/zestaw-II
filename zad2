@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+int main (){
+
+    double x;
+    cout<< "Podaj liczbe punktow: ";
+    cin>>x;
+
+    if (x>=90){
+        cout<<endl<<"Ocena: bardzo dobry (5.0)"<<endl;
+    }
+    else if (x>=80){
+        cout<<endl<<"Ocena: dobry plus (4.5)"<<endl;
+    }
+    else if (x>=70){
+        cout<<endl<<"Ocena: dobry (4.0)"<<endl;
+    }
+    else if (x>=60){
+        cout<<endl<<"Ocena: dostateczny plus (3.5)"<<endl;
+    }
+    else if (x>=50){
+        cout<<endl<<"Ocena: dostateczny (3.0)"<<endl;
+    }
+    else{
+        cout<<endl<<"Ocena: niedostateczny (2.0)"<<endl;
+    }
+
+return 0;
+}
