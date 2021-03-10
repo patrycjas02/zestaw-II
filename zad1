@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main (){
+
+    double x;
+    cout<< "Podaj liczbe: ";
+    cin>>x;
+
+    if (x==0){
+        cout<<endl<<"Podana liczba wynosi 0"<<endl;
+    }
+    else if (x>0){
+        cout<<endl<<"Podana liczba jest dodatnia"<<endl;
+    }
+    else{
+        cout<<endl<<"Podana liczba jest ujemna"<<endl;
+    }
+
+return 0;
+}
