@@ -1,0 +1,24 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main (){
+
+    double a,b,c;
+    cout<< "Podaj pierwsza liczbe: ";
+    cin>>a;
+    cout<< "Podaj druga liczbe: ";
+    cin>>b;
+    cout<< "Podaj trzecia liczbe: ";
+    cin>>c;
+
+    double d=pow(b,2)-(4.0*a*c);
+    double x1=(-b-sqrt(d))/2*a;
+    double x2=(-b+sqrt(d))/2*a;
+
+    cout<<"Rownanie spelniaja liczby:"<<endl<<"x1="<<x1<<", x2="<<x2<<endl;
+
+
+return 0;
+}
