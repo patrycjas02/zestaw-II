@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main (){
+
+    double a,b,c;
+    cout<< "Podaj pierwsza liczbe: ";
+    cin>>a;
+    cout<< "Podaj druga liczbe: ";
+    cin>>b;
+    cout<< "Podaj trzecia liczbe: ";
+    cin>>c;
+
+    if (a<=b){
+        if (b<=c){
+            cout<<"Podane liczby sa ustawione w porzadku niemalejacym"<<endl;
+        }
+        else{
+            cout<<"Podane liczby nie sa ustawione w porzadku niemalejacym"<<endl;
+        }
+    }
+    else{
+        cout<<"Podane liczby nie sa ustawione w porzadku niemalejacym"<<endl;
+    }
+
+return 0;
+}
