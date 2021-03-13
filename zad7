@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main (){
+
+    double a,b,c;
+    cout<< "Podaj pierwsza liczbe: ";
+    cin>>a;
+    cout<< "Podaj druga liczbe: ";
+    cin>>b;
+    cout<< "Podaj trzecia liczbe: ";
+    cin>>c;
+
+
+    if ((a<=b) && (a<=c)){
+        cout<<"Najmniejsza z podanych liczb to: "<<a<<endl;
+    }
+    else if ((b<=a) && (b<=c)){
+        cout<<"Najmniejsza z podanych liczb to: "<<b<<endl;
+    }
+    else if ((c<=a) && (c<=b)){
+        cout<<"Najmniejsza z podanych liczb to: "<<c<<endl;
+    }
+
+return 0;
+}
