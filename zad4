@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main (){
+
+    double a,b,c;
+    cout<< "Podaj pierwsza liczbe (a): ";
+    cin>>a;
+    cout<< "Podaj druga liczbe (b): ";
+    cin>>b;
+    cout<< "Podaj trzecia liczbe (c): ";
+    cin>>c;
+
+    if (a==b){
+        cout<< "a=b";
+    }
+    else if (a==c){
+        cout<< "a=c";
+    }
+    else if (b==c){
+        cout<< "b=c";
+    }
+    else{
+        cout<< "Podane liczby sa od siebie rozne";
+    }
+
+return 0;
+}
