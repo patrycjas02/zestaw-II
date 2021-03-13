@@ -1,0 +1,22 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main (){
+
+    double t1,t2,m;
+    cout<< "Podaj obecny kurs: ";
+    cin>>t1;
+    cout<< "Podaj kurs przewidywany za godzine: ";
+    cin>>t2;
+    cout<< "Podaj kwote dostepnego kapitalu: ";
+    cin>>m;
+
+    double x1 = m*t1;
+    double x2 = x1/t2;
+
+    cout<<"Potencjalny zysk wynosi: "<<x2-m<<endl;
+
+return 0;
+}
