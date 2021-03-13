@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main (){
+
+    double a,b,c;
+    cout<< "Podaj pierwsza liczbe: ";
+    cin>>a;
+    cout<< "Podaj druga liczbe: ";
+    cin>>b;
+    cout<< "Podaj trzecia liczbe: ";
+    cin>>c;
+
+
+    if ((a<b+c) && (b<a+c) && (c<a+b)){
+        cout<<"Z zadanych bokow mozna skonstruowac trojkat"<<endl;
+    }
+    else{
+        cout<<"Z zadanych bokow nie mozna skonstruowac trojkata"<< endl;
+    }
+
+return 0;
+}
